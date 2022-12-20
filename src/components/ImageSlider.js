@@ -20,6 +20,12 @@ const ImageSlider = () => {
     const goToSlide = (slIndex) => {
         setCurrentIndex(slIndex);
     }
+
+    setInterval(()=>{
+        nextSlide();
+    },4000)
+
+
     return (
         <div className="max-w-[1400px] h-[500px] m-auto   px-4 relative group">
             <div style={{ backgroundImage: `url(${slides[currentIndex].url}` }}
