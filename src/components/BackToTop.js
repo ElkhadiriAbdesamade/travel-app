@@ -19,7 +19,7 @@ const BackToTop = () => {
     return ( 
         <div className="fixed z-1 rounded-full bottom-0 right-0 mr-6 mb-6">
             {b2t && 
-            <Link to="home" spy={true} smooth={true} offset={50} duration={1000} className='rounded-full'>
+            <Link to="top" spy={true} smooth={true} offset={50} duration={1000} className='rounded-full'>
             <BsArrowUpCircle size={50} className="shadow-2xl text-teal-500 rounded-full cursor-pointer"/>
             </Link>
             }

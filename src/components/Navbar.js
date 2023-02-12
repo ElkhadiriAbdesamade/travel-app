@@ -25,7 +25,7 @@ const Navbar = () => {
 
     return (
         <nav >
-
+            <div id='top' className='absolute top-[-50px]'></div>
             <div className={!b2t ? 'z-[1] w-full flex p-4 justify-between text-white items-center fixed': 'z-[1] w-full flex p-4 justify-between text-white bg-black/40 items-center fixed'}>
                 <img src={logo} alt="logo" className='h-20' />
                 <HiMenuAlt3 size={30} className='cursor-pointer ' onClick={toggelNav} />

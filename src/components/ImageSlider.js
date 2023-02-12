@@ -38,7 +38,7 @@ const ImageSlider = () => {
                 <BsChevronCompactRight size={30} className='hidden hover:scale-125 ease-in-out duration-700 group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full bg-black/20 text-white cursor-pointer' />
             </div>
             <div className="flex justify-center py-2">
-
+            
                 {slides.map((sl, slIndex) => (
 
                     <div className='cursor-pointer hover:scale-125 ease-in-out duration-700 text-2xl text-gray-500' key={sl.title} onClick={() => { goToSlide(slIndex) }}>
